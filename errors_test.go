@@ -25,6 +25,7 @@ import (
 	"errors"
 	"testing"
 )
+//. 
 
 func TestErrPartial(t *testing.T) {
 	cases := []struct {
