@@ -3,7 +3,7 @@ battery [![Build Status](https://travis-ci.org/distatus/battery.svg?branch=maste
 
 Cross-platform, normalized battery information library.
 
-Gives access to a system independent, typed battery state, capacity, charge and voltage values recalculated as necessary to be returned in mW, mWh or V units.
+Gives access to a system independent, typed battery state, capacity, charge and voltage values recalculated as necessary to be returned in mW, mWh or V units..
 
 Currently supported systems:
 
