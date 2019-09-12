@@ -188,6 +188,7 @@ func ExampleGet() {
 	fmt.Printf("design capacity: %f mWh, ", battery.Design)
 	fmt.Printf("charge rate: %f mW\n", battery.ChargeRate)
 }
+// lets us know how charged the battery is, how fast it's charging
 
 func ExampleGet_errors() {
 	_, err := Get(0)
