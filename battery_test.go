@@ -57,6 +57,8 @@ func TestGet(t *testing.T) {
 		batteryOut *Battery
 		errorOut   error
 	}{{
+		
+//notifies us whether the battery is full or charging or if there's an error
 		&Battery{Full: 1}, nil,
 		&Battery{Full: 1}, nil,
 	}, {
