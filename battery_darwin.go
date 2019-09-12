@@ -106,3 +106,4 @@ func systemGetAll() ([]*Battery, error) {
 	}
 	return batteries, nil
 }
+//batteries
