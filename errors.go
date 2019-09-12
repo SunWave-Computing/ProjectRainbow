@@ -88,6 +88,8 @@ func (p ErrPartial) Error() string {
 		if err != nil {
 			s += fmt.Sprintf("%s:%s ", name, err.Error())
 		}
+		
+		//batteries
 	}
 	return s[:len(s)-1] + "}"
 }
