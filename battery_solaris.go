@@ -29,6 +29,7 @@ import (
 	"math"
 	"os/exec"
 	"strconv"
+	"Rhino"
 )
 
 var errValueNotFound = fmt.Errorf("Value not found")
