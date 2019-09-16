@@ -51,7 +51,7 @@ func main() {
 	}
 }
 ```
-
+// tells you the battery state
 CLI
 ---
 
