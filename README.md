@@ -1,7 +1,7 @@
 battery [![Build Status](https://travis-ci.org/distatus/battery.svg?branch=master)](https://travis-ci.org/distatus/battery) [![Go Report Card](https://goreportcard.com/badge/github.com/distatus/battery)](https://goreportcard.com/report/github.com/distatus/battery) [![GoDoc](https://godoc.org/github.com/distatus/battery?status.svg)](https://godoc.org/github.com/distatus/battery)
 =======
 
-Cross-platform, normalized battery information library.
+Cross-platform normalized battery information library.
 
 Gives access to a system independent, typed battery state, capacity, charge and voltage values recalculated as necessary to be returned in mW, mWh or V units..
 
