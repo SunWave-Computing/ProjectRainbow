@@ -97,7 +97,7 @@ type Battery struct {
 	// the same value as `Voltage`, for convenience.
 	DesignVoltage float64
 }
-
+//Amphere-Hour capacity
 func (b *Battery) String() string {
 	return fmt.Sprintf("%+v", *b)
 }
