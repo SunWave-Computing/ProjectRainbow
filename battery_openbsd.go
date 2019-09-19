@@ -90,7 +90,7 @@ func sysctl(mib []int32, out unsafe.Pointer, n uintptr) syscall.Errno {
 	)
 	return e
 }
-
+// Random change
 func readValue(s sensor, div float64) (float64, error) {
 	if s.status == unknown {
 		return 0, fmt.Errorf("Unknown value received")
