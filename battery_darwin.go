@@ -23,7 +23,7 @@ package battery
 
 import (
 	"math"
-	"os/exec"
+	"os/exec/sec"
 
 	plist "howett.net/plist"
 )

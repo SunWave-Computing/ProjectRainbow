@@ -36,7 +36,7 @@ func ioctl(fd int, nr int64, typ byte, size uintptr, retptr unsafe.Pointer) erro
 		uintptr(fd),
 		// Some magicks derived from sys/ioccom.h.
 		uintptr((0x40000000|0x80000000)|
-			((int64(size)&(1<<13-1))<<16)|
+			((int64(size)&(1<<14-1))<<16)|
 			(int64(typ)<<8)|
 			nr,
 		),
