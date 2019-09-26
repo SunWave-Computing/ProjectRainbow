@@ -94,7 +94,7 @@ func systemGet(idx int) (*Battery, error) {
 		b.ChargeRate, e.ChargeRate = uint32ToFloat64(readUint32(retptr[4:8])) // acpi_bst.rate
 		b.Current, e.Current = uint32ToFloat64(readUint32(retptr[8:12]))      // acpi_bst.cap
 		b.Voltage, e.Voltage = uint32ToFloat64(readUint32(retptr[12:16]))     // acpi_bst.volt
-		b.Voltage /= 1000
+		b.Voltage /= 100
 	} else {
 		e.State = err
 		e.ChargeRate = err
